@@ -199,7 +199,7 @@ export CPPFLAGS="-I${LIB_DIR}/grib2/include -I${MPIINC} -I${MPIINC2}"
 
 ```bash
 # HDF5 - hierarchical data format, used by NetCDF4
-cd $DIR
+cd $LIB_DIR
 wget https://docs.hdfgroup.org/archive/support/ftp/HDF5/releases/hdf5-1.12/hdf5-1.12.0/src/hdf5-1.12.0.tar.gz
 
 # NetCDF-C - Network Common Data Form C library
